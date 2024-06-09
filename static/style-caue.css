@@ -74,13 +74,20 @@ main form .campos-entrada input:focus {
     outline: 1px solid rgba(0, 0, 0, 0.8);
 }
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 main form p {
     text-align: center;
     font-weight: bold;
     color: #464646;
 }
 
-main form h1, main form h2 {
+main form h1,
+main form h2 {
     color: #363636;
 }
 

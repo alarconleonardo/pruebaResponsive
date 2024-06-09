@@ -74,6 +74,12 @@ main section .campos-entrada input:focus {
     outline: 1px solid rgba(0, 0, 0, 0.8);
 }
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 main section p {
     text-align: center;
     font-weight: bold;
