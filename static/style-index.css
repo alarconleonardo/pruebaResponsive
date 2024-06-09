@@ -125,3 +125,14 @@ footer p {
         width: 90%;
     }
 }
+
+@media (max-height: 500px) {
+
+    main {
+        height: auto;
+    }
+
+    main section {
+        margin: 50px;
+    }
+}
